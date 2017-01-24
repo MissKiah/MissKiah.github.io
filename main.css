@@ -10,7 +10,7 @@ ul.menu {
     overflow: hidden;
     background-color: white;
     display: flex;
-    width: 60%;
+    width: 50%;
     flex-flow: row wrap;
 }
 
@@ -140,7 +140,7 @@ div {
 }
 
 .photo-grid figure {
-	height: 163px;
+	height: 210px;
 	overflow: hidden;
 	position: relative;
 	width: 289px;
