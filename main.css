@@ -54,10 +54,29 @@ h3 {
     padding-bottom: 30px
 }
 
-a { color: #b9b9b9; text-decoration: none; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
- a:hover { color: #333333; }
- a img, a:hover img { border: none; }
- h2 { margin-bottom: 15px; color: #000000; font-family: 'Quattrocento', serif; font-size: 24px; font-weight: 700; line-height: 1.2em; }
+a { color: #b9b9b9; 
+    text-decoration: none; 
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease; 
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; }
+
+ a:hover { 
+     color: #333333; 
+}
+
+ a img, a:hover img { 
+     border: none; 
+}
+
+ h2 { margin-bottom: 15px;
+     color: #000000; 
+     font-family: 'Quattrocento', serif; 
+     font-size: 24px; 
+     font-weight: 700; 
+     line-height: 1.2em; }
+
   h1 { 
       margin-bottom: 15px; 
       color: #000000; 
@@ -131,7 +150,7 @@ div {
    
    .photo-grid {
 	margin: 1em auto;
-	max-width: 1106px;
+	max-width: 1006px;
 	text-align: center;
 }
 
@@ -148,7 +167,7 @@ div {
 }
 
 .photo-grid figure {
-	height: 210px;
+	height: 250px;
 	overflow: hidden;
 	position: relative;
 	width: 289px;
@@ -197,7 +216,7 @@ div {
 
 .photo-grid figcaption p {
 	display: table-cell;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	position: relative;
 	top: -40px;
 	width: 289px;
