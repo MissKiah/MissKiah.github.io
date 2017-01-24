@@ -10,7 +10,7 @@ ul.menu {
     overflow: hidden;
     background-color: white;
     display: flex;
-    width: 30%;
+    width: 40%;
     flex-flow: row wrap;
 }
 
@@ -48,12 +48,6 @@ li:last-child {
 */
 
 
-
-h3 {
-   
-    padding-bottom: 30px
-}
-
 a { color: #b9b9b9; 
     text-decoration: none; 
     -webkit-transition: all 300ms ease;
@@ -87,6 +81,18 @@ a { color: #b9b9b9;
       padding-top: 30px;
 }
 
+h4 {
+    padding-right: 300px;
+    padding-bottom: 15px
+}
+
+.pagetitleleft {
+    padding-left: 130px;
+}
+
+.pagetitleright {
+    padding-right: 150px;
+}
 
 /* --------------------------------------------
 */
@@ -258,8 +264,128 @@ div {
 /* --------------------------------------------
 */
 
-div {
-
+.bloglink {
+    
 }
 
+/* --------------------------------------------
+*/
+
+
+.bloglink {
+	margin: 1em auto;
+	max-width: 1106px;
+	text-align: center;
+}
+
+.bloglink li {
+	border: 5px solid white;
+	display: inline-block;
+	margin: 0em;
+	width: 300px;
+}
+
+.bloglink img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.bloglink figure {
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	width: 289px;
+}
+
+.bloglink figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.bloglink figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	vertical-align: middle;
+}
+
+.bloglink li:hover figcaption {
+	opacity: 1;
+}
+
+.bloglink img {
+	display: block;
+	height: auto;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	max-width: 100%;
+}
+
+.bloglink li:hover img {
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+.bloglink figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
+}
+
+.bloglink li:hover figcaption p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+
+.bloglink figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+
+.bloglink {
+	display: inline;
+}
+
+/* --------------------------------------------
+*/
+
+.contactform {
+    float: right;
+    padding-right: 100px;
+    
+}
 
