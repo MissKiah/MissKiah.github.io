@@ -22,7 +22,7 @@ ul {
 	 
 }
 
-li a {
+ul.menu li a {
 	display: block;
     color: black;
     padding: 8px 16px;
@@ -30,16 +30,16 @@ li a {
     text-align: center;
 }
 
-li a:active {
+ul.menu li a:active {
     background-color: white;
     color: black;
 }
 
-li a:hover:not(.active) {
+ul.menu li a:hover:not(.active) {
     color: lightgrey;
 }
 
-li:last-child {
+ul.menu li:last-child {
     border-bottom: none;
 }
 
@@ -67,7 +67,7 @@ a { color: #b9b9b9;
  h2 { margin-bottom: 15px;
      color: #000000; 
      font-family: 'Quattrocento', serif; 
-     font-size: 24px; 
+     font-size: 40px; 
      font-weight: 700; 
      line-height: 1.2em; }
 
@@ -79,6 +79,25 @@ a { color: #b9b9b9;
       font-weight: 700; 
       line-height: 1.2em;
       padding-top: 30px;
+}
+
+.h1title {
+      margin-bottom: 15px; 
+      color: black; 
+      font-family: 'Quattrocento', serif; 
+      font-size: 50px; 
+      font-weight: 700; 
+      line-height: 1.2em;
+      padding-top: 30px;
+}
+
+.h3title {
+      margin-bottom: 15px; 
+      color: black; 
+      font-family: 'Quattrocento', serif; 
+      font-size: 30px; 
+      font-weight: 700; 
+      line-height: 1.2em;
 }
 
 h4 {
@@ -166,7 +185,7 @@ div {
 
 .photo-grid li {
 	display: inline-block;
-	margin: 0em;
+	margin: 0.5em;
 	width: 289px;
 }
 
@@ -263,6 +282,7 @@ div {
 
 .photo-grid {
 	display: block;
+    padding-right: 100px;
 }
 
 /* --------------------------------------------
