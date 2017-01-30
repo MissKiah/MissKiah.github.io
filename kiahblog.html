@@ -7,13 +7,19 @@
 	<meta name="Author" content="Tyler Tucker">
 	<meta name="keywords" content="">
 	       <title> Kiah Wilson </title>
-     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="shortcut icon" type="image/x-icon" href="kiahphoto.jpg">
     
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
-   <script>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    
+<style>
+.mySlides {display:none;}
+</style>
+    
+     <script>
 var myIndex = 0;
 carousel();
 
@@ -28,12 +34,8 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
-</script>
-    
-    <style>
-.mySlides {display:none;}
-</style>
-    
+    </script>
+
 </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <header>
@@ -64,14 +66,11 @@ function carousel() {
 
 <section>
 <center>
-     <div class="w3-content w3-section" style="max-width:500px">
-        
-    <img class="mySlides" src="kiahcute.png" height="200" width="300">
-    <img class="mySlides" src="kiahblueshirt.jpg" height="200" width="300">
-    <img class="mySlides" src="kiahcute.png" height="200" width="300">
-    <img class="mySlides" src="kiahcold.jpg" height="200" width="300">
-    
-    </div>
+   <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="kiahblueshirt.jpg" style="width:100%">
+  <img class="mySlides" src="kiahcold.jpg" style="width:100%">
+  <img class="mySlides" src="kiahcute.png" style="width:100%">
+</div>
 <div>
 <h3> Welcome! </h3>
 This is my first blog post :)! I am so excited! Tyler is so great for making this ;P.
