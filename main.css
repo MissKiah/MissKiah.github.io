@@ -10,7 +10,7 @@ ul.menu {
     overflow: hidden;
     background-color: white;
     display: flex;
-    width: 40%;
+    width: 60%;
     flex-flow: row wrap;
 }
 
@@ -74,7 +74,7 @@ a { color: #b9b9b9;
   h1 { 
       margin-bottom: 15px; 
       color: #000000; 
-      font-family: 'Quattrocento', serif; 
+      font-family: 
       font-size: 24px; 
       font-weight: 700; 
       line-height: 1.2em;
@@ -84,7 +84,7 @@ a { color: #b9b9b9;
 .h1title {
       margin-bottom: 15px; 
       color: black; 
-      font-family: 'Quattrocento', serif; 
+      font-family:
       font-size: 50px; 
       font-weight: 700; 
       line-height: 1.2em;
@@ -94,7 +94,7 @@ a { color: #b9b9b9;
 .h3title {
       margin-bottom: 15px; 
       color: black; 
-      font-family: 'Quattrocento', serif; 
+      font-family: 
       font-size: 30px; 
       font-weight: 700; 
       line-height: 1.2em;
