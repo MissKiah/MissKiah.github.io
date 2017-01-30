@@ -8,7 +8,7 @@ ul.menu {
     padding: 0;
     justify-content: center;
     overflow: hidden;
-    background-color: white;
+    background-color: none;
     display: flex;
     width: 60%;
     flex-flow: row wrap;
@@ -117,7 +117,9 @@ h4 {
 */
 
 body {
-
+    background-image: url('kiahcute.png');
+    background-repeat: no-repeat;
+    
 }
 
 .titlehr {
@@ -413,3 +415,7 @@ div {
     
 }
 
+.aboutdiv {
+    background-color: white;
+    
+}
